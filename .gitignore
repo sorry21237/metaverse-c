@@ -1,0 +1,10 @@
+#git ignore
+
+# vcxproj
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Debug
+Debug/
+x64/
