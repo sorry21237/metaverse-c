@@ -1,6 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int scanf_int(void)
+void swap(int* sort_a, int* sort_b) // swap two int variable
+{
+	int temp = 0;
+
+	temp = sort_a;
+	sort_a = sort_b;
+	sort_b = temp;
+}
+
+int scanf_int(void) //scanf_exception_handling
 {
 	int result = 0;
 	do

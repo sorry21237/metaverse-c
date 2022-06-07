@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #include "homework01.h"
-#include "scanf_exception_handling.h"
+#include "common_function.h"
 
 
 void homework01(void) //show list of day 01 and choose the problem num
@@ -141,4 +141,4 @@ void homework0104(void)
 	printf("thousand : %d\n", thousand);
 	printf("hundred : %d\n", hundred);
 	printf("ten : %d\n", ten);
-}
+}	

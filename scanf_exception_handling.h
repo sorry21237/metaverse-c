@@ -1,6 +1,0 @@
-#ifndef SCANF_EXCEPTION_HANDLING_H
-#define SCANF_EXCEPTION_HANDLING_H
-
-int scanf_int(void);
-
-#endif // !SCANF_EXCEPTION_HANDLING_H

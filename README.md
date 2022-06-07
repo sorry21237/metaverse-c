@@ -47,7 +47,7 @@ language  : c
 - unknown reason, randomly occurrence
 - x64 & x86 doesn't matter
 - but sometimes it works if change solution platform x64 or x86 doesn't work
-#### call_homework.c
+#### call_homework.c problem part
 ```c
 	for (int i = 0; i <= fp_arraySize; i++) // search choosen date homework list
 	{
