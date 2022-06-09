@@ -6,6 +6,8 @@
 
 void homework01(void) //show list of day 01 and choose the problem num
 {
+
+	//edit array size F_A[number of the days]
 	void (*workList[4])() =	{ homework0101,
 														homework0102,
 														homework0103,
@@ -18,7 +20,7 @@ void homework01(void) //show list of day 01 and choose the problem num
 	{
 		printf("homework num %d\n", i);
 	}
-
+	printf("-------------------------------\n");
 	int flag = 0;
 	do
 	{
@@ -86,12 +88,12 @@ void homework0103(void)
 
 	result_second = sec;
 
-	result_hour = floor(sec / 3600);
+	result_hour = (float)(sec / 3600);
 	if (result_hour > 0)
 	{
 		result_second -= result_hour * 3600;
 	}
-	result_minute = floor(result_second / 60);
+	result_minute = (float)(result_second / 60);
 
 	if (result_minute > 0)
 	{

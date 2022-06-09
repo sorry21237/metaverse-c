@@ -5,4 +5,4 @@
 int input_work_date(int arraySize);
 void call_work(void);
 
-#endif // !FOO_DOT_H
+#endif 

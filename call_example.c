@@ -4,6 +4,9 @@
 
 #include "exam_structnode.h"
 
+void call_exam(void);
+int input_exam(int arraySize);
+
 void call_exam(void) //examp_XXXXXX.c function calling
 {
 

@@ -6,6 +6,8 @@
 
 void homework02(void) //show list of day 02 and choose the problem num
 {
+
+	//edit array size F_A[number of the days]
 	void (*workList[2])() = { homework0201,
 														homework0202,
 	};

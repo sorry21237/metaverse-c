@@ -1,13 +1,22 @@
 #include <stdio.h>
 
 #include "homework01.h"
+#include "homework02.h"
+#include "homework03.h"
+#include "homework04.h"
+
+void call_work(void);
+int input_work_date(int arraySize);
 
 void call_work(void) //homeworkXXXX.c function calling
 {
 
 	//edit array size F_A[number of the days]
-	void (*workDate[1])() = { homework01, //homework02, ...
-						};
+	void (*workDate[4])() = { homework01, 
+														homework02,
+														homework03,
+														homework04,
+	};
 
 	const int fp_arraySize = sizeof workDate / sizeof workDate[0];
 
