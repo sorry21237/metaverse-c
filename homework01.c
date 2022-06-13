@@ -69,7 +69,7 @@ void homework0102(void)
 		sum += arrayNum[i];
 	}
 
-	float avg = sum / arraySize;
+	float avg = (float)sum / arraySize;
 
 	printf("Number's sum : %d, avg : %.2f\n", sum, avg);
 }
@@ -88,12 +88,12 @@ void homework0103(void)
 
 	result_second = sec;
 
-	result_hour = (float)(sec / 3600);
+	result_hour = (int)(sec / 3600);
 	if (result_hour > 0)
 	{
 		result_second -= result_hour * 3600;
 	}
-	result_minute = (float)(result_second / 60);
+	result_minute = (int)(result_second / 60);
 
 	if (result_minute > 0)
 	{

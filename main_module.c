@@ -7,6 +7,7 @@
 #include "homework02.h"
 #include "homework03.h"
 #include "homework04.h"
+#include "homework05.h"
 
 
 int input_target(void); // category choose function

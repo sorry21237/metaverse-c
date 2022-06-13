@@ -3,7 +3,7 @@
 #include "homework04.h"
 #include "common_function.h"
 
-void homework03(void) //show list of day 03 and choose the problem num
+void homework04(void) //show list of day 04 and choose the problem num
 {
 
 	//edit array size F_A[number of the days]
@@ -117,7 +117,7 @@ void homework0403(void)
 	int temp = 0;
 	int month = 0;
 
-	//start january 1st
+	//start january, 1st
 	int monthDate[2] = { 1, 1 };
 
 	printf("input date in 1 ~ 365 : ");
@@ -132,42 +132,42 @@ void homework0403(void)
 		{
 			if (month == 1)
 			{
-				date -= 28;
+				temp -= 28;
 			}
 			else
 			{
-				date -= month % 2 != 1 ? 31 : 30;
+				temp -= month % 2 != 1 ? 31 : 30;
 			}
 			/*
 			else if (month % 2 == 1)
 			{
-				date -= 30;
+				temp -= 30;
 			}
 			else
 			{
-				date -= 31;
+				temp -= 31;
 			}
 			*/
 			month++;
 		}
 		else if (month >= 7)
 		{
-			date -= month % 2 == 1 ? 31 : 30;
+			temp -= month % 2 == 1 ? 31 : 30;
 			/*
 			if (month % 2 == 1)
 			{
-				date -= 31;
+				temp -= 31;
 			}
 			else
 			{
-				date -= 30;
+				temp -= 30;
 			}
 			*/
 			month++;
 		}
-	} while (date >= 28);
+	} while (temp >= 28);
 	monthDate[0] += month;
-	monthDate[1] += date;
+	monthDate[1] += temp;
 
-	printf("%d day from 1 / 1 is %d / %d", temp, monthDate[0], monthDate[1]);
+	printf("%d day from 1 / 1 is %d / %d", date, monthDate[0], monthDate[1]);
 }

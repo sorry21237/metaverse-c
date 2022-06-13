@@ -3,5 +3,6 @@
 
 int scanf_int(void);
 void swap(int* sort_a, int* sort_b);
+int randnum(void);
 
-#endif // !SCANF_EXCEPTION_HANDLING_H
+#endif

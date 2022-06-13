@@ -2,7 +2,7 @@
 
 #include "call_example.h"
 
-#include "exam_structnode.h"
+#include "exam_triangle.h"
 
 void call_exam(void);
 int input_exam(int arraySize);
@@ -11,7 +11,7 @@ void call_exam(void) //examp_XXXXXX.c function calling
 {
 
 	//edit array size F_A[number of the days]
-	void (*workDate[1])() = { struct_main, //exam.c ....
+	void (*workDate[1])() = { exam01, //exam ....
 	};
 
 	const int fp_arraySize = sizeof workDate / sizeof workDate[0];
