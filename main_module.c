@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #include "call_example.h"
+#include "exam_triangle.h"
 
 #include "call_homework.h"
 #include "homework01.h"

@@ -3,16 +3,6 @@
 #include "exam_triangle.h"
 #include "common_function.h"
 
-void equilateral(int* line);
-void equilateralinverted(int* p_line);
-void rightangle(int* line);
-void rightinverted(int* line);
-void leftinverted(int* line);
-void leftrightangle(int* line);
-void leftangle(int* p_line);
-void rightangle(int* p_line);
-void diamond(int* p_line);
-
 void homework01(void) //show list of day 01 and choose the problem num
 {
 
